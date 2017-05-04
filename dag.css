@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#000; /*Background color of page*/
+	color:#FFF; /*Color of basic text*/
+	font-family:Arial, Helvetica, sans-serif; /*Style of basic text*/
+	font-size:18px;
+}
+
+h3 {
+	font-weight:600;
+}
+
+h4 {
+	font-size:15px;
+	font-weight:400;
+	color:#FC0;
+}
+
+h5 {
+	font-size:24px;
+	font-weight:600;
+	color:#FC0;
+}
+
+h6 {
+	color:#F00;
+	text-decoration:none;
+	font-size:14px;
+}
+
+h7 {
+	color:#F00;
+	text-decoration:none;
+	font-size:24px;
+	font-weight:600;
+}
+
+a {
+	color:#F00;
+	text-decoration:none;
+}
+
+th {
+	font-weight:600;
+	color:#F00;
+	font-size:21px;
+}
+
+#mainContainer {
+	width:800px; /*Width of container across screen*/
+	margin: 0 auto; /*Center container on page*/
+	font-family: Garamond, "Times New Roman", Times, serif;
+}
+
+#footer {
+	font-size:13px;
+	color:#FC0;
+}
+
+#deathcup {
+	width:480px;
+	float:left;
+	display:inline;
+}
+
+#history {
+	font-size:18px;
+	font-style:italic;
+	width:320px;
+	float:right;
+	display:inline;
+}
+
+#history p {
+	text-indent:30px;
+}
+
+#components {
+	font-size:15px;
+}
