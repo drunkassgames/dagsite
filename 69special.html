@@ -33,11 +33,13 @@
 <p></p>
 <p></p>
 
+
+
 <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <p>Find the Listies Bundle-Battle. Must have a friend also purchase this special. Winner will be determined by total value of The List cards pulled in each Bundle. Winner takes all except The List cards! Battle will be ripped most quickly!</p>
-          <select id="item-options"><option value="MID, SNC, or VOW" price="38.00">MID, SNC, or VOW - 38.00 USD</option></select>
+          <p>The 69 Special includes 1x IKO Collector, 1x ELD Collector, and 1x spin on the ZillaWheel!!! Each order will give you and a person of your choice an extra pull on the 100s. All orders will get something special from DAG.</p>
+          <select id="item-options"><option value="SPECIAL" price="69.69">SPECIAL - 69.69 USD</option></select>
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>
       <div id="paypal-button-container"></div>
@@ -53,16 +55,16 @@
     if (!isNaN(quantity)) {
       quantitySelect.style.visibility = "visible";
     }
-    var orderDescription = 'Find the Listies Bundle-Battle. Must have a friend also purchase this special. Winner will be determined by total value of The';
+    var orderDescription = 'The 69 Special includes 1x IKO Collector, 1x ELD Collector, and 1x spin on the ZillaWheel!!!';
     if(orderDescription === '') {
       orderDescription = 'Item';
     }
     paypal.Buttons({
       style: {
         shape: 'pill',
-        color: 'gold',
+        color: 'blue',
         layout: 'vertical',
-        label: 'paypal',
+        label: 'pay',
         
       },
       createOrder: function(data, actions) {
@@ -135,7 +137,6 @@
   }
   initPayPalButton();
     </script>
-
 
 	
 	
