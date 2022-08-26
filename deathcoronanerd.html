@@ -36,9 +36,9 @@
 <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <p>Find the Listies Bundle-Battle. Must have a friend also purchase this special. Winner will be determined by total number of The List cards pulled (if tied, total number of M, then R). Winner takes all except The List cards! Battle will be ripped most quickly!</p>
-          <select id="item-options"><option value="MID, SNC, or VOW" price="38.00">MID, SNC, or VOW - 38.00 USD</option></select>
-          <select style="visibility: hidden" id="quantitySelect"></select>
+          <p>WHACKY SPECIAL - 1x Random Collector Pack (ELD/IKO/KHM/MID/VOW/???), 1x your choice of Set Pack (KHM/MID/SNC/STX/VOW/ZNR), and 1x NEO Draft Pack to Jessi to complete her set! First person to purchase the special determines what the ??? pack will be and we will crack the box!!! Each order also gets an extra pull from the 100s for each special ordered.</p>
+          <select id="item-options"><option value="WOOT" price="30.69">WOOT - 30.69 USD</option></select>
+          <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select>
         </div>
       <div id="paypal-button-container"></div>
       </div>
@@ -48,12 +48,12 @@
       function initPayPalButton() {
         var shipping = 0;
         var itemOptions = document.querySelector("#smart-button-container #item-options");
-    var quantity = parseInt();
+    var quantity = parseInt(4);
     var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
     if (!isNaN(quantity)) {
       quantitySelect.style.visibility = "visible";
     }
-    var orderDescription = 'Find the Listies Bundle-Battle. Must have a friend also purchase this special. Winner will be determined by total value of The';
+    var orderDescription = '1x Random Collector, 1x Set, and 1x NEO Draft for Jessi!';
     if(orderDescription === '') {
       orderDescription = 'Item';
     }
@@ -62,7 +62,7 @@
         shape: 'pill',
         color: 'gold',
         layout: 'vertical',
-        label: 'paypal',
+        label: 'pay',
         
       },
       createOrder: function(data, actions) {
