@@ -38,8 +38,8 @@
 <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <p>SET SPECIAL: 1x Set Pack! Take your chance and spin on the Set Wheel (ask DCN to show you the wheel). 6+ spins = ReSpin. 12 spins = receive a ReSpin and we will open up predictions/records for Mythics and Listie cards!</p>
-          <select id="item-options"><option value="Set Booster" price="5.69">Set Booster - 5.69 USD</option></select>
+          <p>Can We UUUG-IT!!! (M21 Promo Pack+) SPECIAL $10.69/20.69: Buy Foil or Non-Foil. Open up an M21 Promo Pack in all its glory! But wait there's more... If you pull an Ugin, you get another Promo Pack for fareee (foil if bought non-foil and vice versa). Get another Ugin, get another promo pack... back and forth we go (non-foil to foil to non-foil)!!! If Ugin is hit, all chat followers will get a Pull and a Respin! Celebrations!!! Some absolutely huge hits in this. I got a good deal on these, so I am passing this onto everyone!</p>
+          <select id="item-options"><option value="Non-Foil" price="10.69">Non-Foil - 10.69 USD</option><option value="Foil" price="20.69">Foil - 20.69 USD</option></select>
           <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
         </div>
       <div id="paypal-button-container"></div>
@@ -55,7 +55,7 @@
     if (!isNaN(quantity)) {
       quantitySelect.style.visibility = "visible";
     }
-    var orderDescription = 'Mix and match from KHM/NEO/STX/VOW';
+    var orderDescription = 'Ugin M21 Special';
     if(orderDescription === '') {
       orderDescription = 'Item';
     }
