@@ -36,7 +36,7 @@
 <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <p>COLLECTOR SPECIAL - 1x Collector Pack! Take your chance and spin on the Collector Wheel (ask DCN to show you the wheel). If 4x specials are bought, receive a ReSpin and you will open up predictions/records for Mythics and Shotworthy cards! Also, if you land on the -You Choose- you may pick LTR or 2X2 Collector. Note: Once you do choose LTR or 2X2 or you did not get 4x Specials, the -You Choose- wedge allows you to choose any Wedge except for -LTR-.</p>
+          <p>COLLECTOR SPECIAL - 1x Collector Pack! Take your chance and spin on the Collector Wheel (ask DCN to show you the wheel). The 3-WAY game is a chance to open 3 packs. You stop opening packs if you hit a Banger (>= $5 card) or mythic. If 4x specials are bought, receive a ReSpin and you will open up predictions/records for Mythics and Shotworthy cards and if you land on the -You Choose- you may pick CMM, IKO, IKO - JP, or LTR Collector. Note: You are limited to 1 pack of CMM or LTR per 4x Special. The -YOU CHOOSE- wedge normally allows you to choose any wedge except for wedges with this format: -AAA-. Also Also, if you purchase a 4x, in the 3-WAY game you will get more packs unless you pull a Banger.</p>
           <select id="item-options"><option value="Special" price="25.69">Special - 25.69 USD</option></select>
           <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select>
         </div>
@@ -55,7 +55,7 @@
     }
     var orderDescription = '';
     if(orderDescription === '') {
-      orderDescription = 'Item';
+      orderDescription = 'Collector Special';
     }
     paypal.Buttons({
       style: {
